@@ -24,7 +24,7 @@ async def process_addresses(addresses):
             print(f"Addresses remaining: {total_addresses}")  # Вывод в консоль оставшихся адресов
             await asyncio.sleep(0.001)
             
-with open('part3.txt', 'r') as file:
+with open('wallets.txt', 'r') as file:
     addresses = [address.strip().lower() for address in file.readlines()]
     print(f"Total addresses to process: {len(addresses)}")
     
