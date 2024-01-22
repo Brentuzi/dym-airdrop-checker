@@ -1,5 +1,5 @@
 # dym-airdrop-checker
-bucl cheker DYM
+bulk cheker DYM
 install librares 
 pip install asyncio
 pip install aiohttp
